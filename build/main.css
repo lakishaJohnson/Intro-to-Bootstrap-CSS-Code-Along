@@ -13,10 +13,14 @@
   font-size: 3em;
 }
 
-nav {
-  display: none;
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-img {
-  width: 100px;
-}
+/* .list-inline {
+  display: inline-block;
+} */
+
+
