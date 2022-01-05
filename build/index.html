@@ -17,11 +17,11 @@
     <!-- Bonus! Use documentation to style the nav -->
     <!-- ************************** -->
 
-    <nav class="container-fluid">
-      <div class="">
-        <a class="" href="#">Rosier</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rosier</a>
         <button
-          class=""
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -29,19 +29,19 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class=""></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="" id="navbarSupportedContent">
-          <ul class="list-inline">
-            <li class="">
-              <a class="" aria-current="page" href="#">Home</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="">
-              <a class="" href="#">Featured</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Featured</a>
             </li>
-            <li class="">
+            <li class="nav-item dropdown">
               <a
-                class="form-select"
+                class="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -50,27 +50,22 @@
               >
                 Learn More
               </a>
-              <ul class="" aria-labelledby="navbarDropdown">
-                <!-- <option selected>Weekly</option>
-            <option value="1">Daily</option>
-            <option value="2">Hourly</option>
-            <option value="3">Monthly</option>
-            <option value="3">Annually</option> -->
-                <li><a class="" href="#">About</a></li>
-                <li><a class="" href="#">Contact</a></li>
-                <li><hr class="" /></li>
-                <li><a class="" href="#">Surprise me!</a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Surprise me!</a></li>
               </ul>
             </li>
           </ul>
-          <form class="">
+          <form class="d-flex">
             <input
-              class=""
+              class="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="" type="submit">Search</button>
+            <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
       </div>

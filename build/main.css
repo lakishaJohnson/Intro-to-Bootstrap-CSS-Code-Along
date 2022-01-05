@@ -23,4 +23,8 @@
   display: inline-block;
 } */
 
+#hero img {
+  opacity: 0.6;
+}
+
 
